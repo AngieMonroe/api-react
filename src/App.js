@@ -19,7 +19,6 @@ function App() {
         <Routes>
           <Route path='/' element={<HomeContainer />} />
           <Route path='/cart/callback' element={<SecondPage />} />
-
           </Routes>
       </div>
       

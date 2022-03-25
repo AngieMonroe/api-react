@@ -1,11 +1,6 @@
-import axios from "axios";
-import React, { useState } from "react";
-import { 
-  MDBBtn,
-  MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText, } from 'mdb-react-ui-kit';
+import axios from 'axios';
+import React from 'react';
+import { MDBBtn } from 'mdb-react-ui-kit';
 
 
 function SecondPage() {
@@ -39,20 +34,6 @@ function SecondPage() {
         <div className="d-flex justify-content-center">
           <MDBBtn className="m-4" color='secondary' onClick={getCart}>Pagar</MDBBtn>
         </div>
-        {/* <div className="row m-auto">
-        {orders && orders.map((item, index) => {
-          return(
-          <MDBCard className="col-12 col-md-3 m-1" key={index}>
-            <MDBCardBody>
-              <MDBCardTitle>{item.partnerId}</MDBCardTitle>
-              <MDBCardText>{Number(item.amountCart)}</MDBCardText>
-              <MDBBtn className="m-2" outline color='secondary' onClick={() => getPayment(item.id)}>Pagar</MDBBtn>
-            </MDBCardBody>
-          </MDBCard>
-          )
-        })
-        }
-        </div> */}
       </div>
     )
 }
