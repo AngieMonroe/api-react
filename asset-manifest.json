@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AngieMonroe/api-react.git/static/css/main.dffd817f.css",
+    "main.js": "/AngieMonroe/api-react.git/static/js/main.0cef5cce.js",
+    "index.html": "/AngieMonroe/api-react.git/index.html",
+    "main.dffd817f.css.map": "/AngieMonroe/api-react.git/static/css/main.dffd817f.css.map",
+    "main.0cef5cce.js.map": "/AngieMonroe/api-react.git/static/js/main.0cef5cce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dffd817f.css",
+    "static/js/main.0cef5cce.js"
+  ]
+}
