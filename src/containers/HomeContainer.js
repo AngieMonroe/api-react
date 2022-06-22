@@ -10,7 +10,7 @@ function HomeContainer() {
   const navigate = useNavigate();
 
   const getOrder = () => {
-    const url = 'https://giftcardsapidev.azurewebsites.net/';
+    const url = 'https://giftcardsapidev';
     const body = {
       partnerId: 'bonnus-test',
       ipAddress: '192.168.0.1',
